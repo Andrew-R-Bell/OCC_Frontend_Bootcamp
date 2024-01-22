@@ -1,0 +1,42 @@
+.font-family-size{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.italic underline{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.font-family-size bold center-align{
+    text-align: center;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.line-height{
+    line-height: 4;
+}
+
+.letter-spacing{
+    letter-spacing: 5px;
+}
+
+.text-shadow{
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(168,19,19,0.5);
+}
+
+.center-align line-through{
+    text-decoration: line-through;
+    text-align: center;
+}
