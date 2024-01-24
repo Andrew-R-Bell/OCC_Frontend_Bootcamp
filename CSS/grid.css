@@ -1,0 +1,40 @@
+.gridItem {
+    min-width: 20px;
+    border: 2px black solid;
+    background-color: lightblue;
+    text-align: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.container {
+    background-color: yellowgreen;
+}
+
+.gridContainer {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: 150px 200px 300px ; */
+    /* grid-template: 200px 200px 200px/ auto auto auto; */
+    grid-template-areas: 
+        'header header . .'
+        'side . . . '
+        'side . . . ';
+    justify-content: baseline;
+    /* align-items: center; */
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.gridItem2 {
+    grid-area: 2 / 2/ span 3 / span 2;
+/* row start / colum start / row start / colum start */
+}
+
+.gridItem1 {
+    grid-area: header;
+}
+
+.gridItem4 {
+    grid-area: side;
+}

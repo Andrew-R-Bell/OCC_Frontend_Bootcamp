@@ -2,7 +2,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-span{background-color: red;
+span{
+	background-color: red;
 }
 
 li {
@@ -20,7 +21,7 @@ listClass {
 li[value="list"]{
     background-color: green;
 }
-listClass1, .listcalss2 {
+.listClass1, .listcalss2 {
     background-color: skyblue;
 }
 
