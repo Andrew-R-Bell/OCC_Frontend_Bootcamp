@@ -1,0 +1,171 @@
+* {
+    font-family: Afacad, Geneva, Tahoma, sans-serif;
+}
+
+
+.box {
+    /* border: 2px solid; */
+    box-sizing: border-box;
+    display: grid;
+}
+
+.main-view {
+    display: grid;
+    margin-left: 5%;
+    margin-right: 2%
+}
+
+/* for the header or navigation bar */
+.nav-bar {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.portfolio-header {
+    font-size: 1rem;
+    font-family:'Afacad', cursive;
+    
+    
+}
+
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-container p {
+    min-width: 5rem;
+}
+
+.active {
+    color: rgb(202, 128, 16);
+    font-weight: bold;
+}
+
+
+
+/* for the introduction row */
+.middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 75vh;
+}
+
+.greetings {
+    display: grid;
+    justify-content: center;
+}
+
+.my-name {
+    font-size:5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.intro {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.socials img {
+    height: 30px;
+}
+
+.socials div {
+    justify-content: space-around;
+}
+
+.photo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.regel {
+    border-radius: 50%;
+    background-color: antiquewhite;
+    grid-column: 1/span1;
+    grid-row: 1/span1;
+    margin-left: -1rem;
+    margin-top: -0.8rem;
+}
+
+.circle {
+    /*border: 2px solid black;*/
+    z-index: -1;
+    height: 17.5rem;
+    width: 17.5rem;
+    border-radius: 50%;
+    grid-column: 1/span1;
+    grid-row: 1/span1;
+    background-color: rgb(202, 128, 16);
+}
+
+/* the about part */
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    background-color:#011936FF;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    /* border: 2px solid black; */
+    border-radius: 0 2rem;
+}
+
+.cards img {
+    grid-column: 1/span1;
+    grid-row: 1/span1;  
+    z-index: 3;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    /* background-color: rgb(202, 128, 16); */
+    /* background-color: #ed254eff; */
+}
+
+.blank  {
+    background-color: rgb(202, 128, 16);
+    z-index: 2;
+    height: 18rem;
+    width: 18.5rem;
+    grid-column: 1/span1;
+    grid-row: 1/span1;
+    margin-left: -2rem;
+    margin-top: 7rem;
+    top:1rem;
+}
+
+.blank2  {
+    background-color: #f4fffdff;
+    z-index: 1;
+    height: 23rem;
+    width: 18.5rem;
+    grid-column: 1/span1;
+    grid-row: 1/span1;
+    margin-bottom: 2rem;
+    top:1rem;
+}
+
+
+.about-text {
+    margin-top: 2rem;
+    color: aliceblue;
+}
+
+
