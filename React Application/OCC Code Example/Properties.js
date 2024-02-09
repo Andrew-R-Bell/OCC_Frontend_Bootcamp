@@ -1,7 +1,7 @@
-import './styles/properties.css'
+import './styles/Properties.css'
 
 function Properties() {
-    return(        
+    return(
         <div class="property">
             <div class="title">
                 <h2>Our Properties</h2>
@@ -145,4 +145,5 @@ function Properties() {
         </div>
     )
 }
-export default Properties; 
+
+export default Properties;
